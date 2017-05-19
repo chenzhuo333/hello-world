@@ -6,8 +6,8 @@ tree = ET.ElementTree(file = "NewFile.xml")
 
 root = tree.getroot()
 
-#for child in root:
-#    print child.tag,child.attrib
+for child in root:
+    print child.tag,child.attrib  #遍历根目录下的标签名字和标签属性
 print root.tag
 
 print root[0].tag
