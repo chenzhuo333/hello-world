@@ -20,3 +20,6 @@ print root[0][2].text
 
 for els in tree.iter(tag='login'): #tree 对象有一个iter遍历函数， 制定某一个tag进行遍历操作,如果不制定tag，就会把所有元素遍历一遍
     print els.tag, els.attrib
+
+
+new content
